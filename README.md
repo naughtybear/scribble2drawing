@@ -10,7 +10,7 @@
 
 ## 執行方法
 ### 第一步
-請先到[這裡](https://drive.google.com/file/d/18jXHQcELDsqrhYOKPIz-lPKgGUoQCPHU/view?usp=sharing)下載training過得VGG模型，並將其放入matconvnet-1.0-beta24/styleTransfer的資料夾內，並下載[caltech101](http://www.vision.caltech.edu/Image_Datasets/Caltech101/)的資料集，並將它們全部放入cal101這個資料夾中
+請先到[這裡](https://drive.google.com/file/d/18jXHQcELDsqrhYOKPIz-lPKgGUoQCPHU/view?usp=sharing)下載training過得VGG模型，並將其放入matconvnet-1.0-beta24/styleTransfer的資料夾內，接著下載[caltech101](http://www.vision.caltech.edu/Image_Datasets/Caltech101/)的資料集，然後將它們全部解壓縮後放入cal101這個資料夾中
 
 ### 第二步
 將你要的轉換的圖片轉為jpg格式後放入input的資料夾
