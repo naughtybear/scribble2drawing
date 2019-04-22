@@ -4,13 +4,8 @@ tic;
 load(['store_mat/region_' num2str(img_num) '.mat']);
 %% sparse coding
 compareResult = sparsecodingCompare(modifyregion,img_num);
-% for i = 1:size(compareResult)
-%     imwrite(compareResult{i}, ['result/compare_result/' num2str(i) '.png'])
-% end
+
 finalRegion = deleteOverlapRegion(compareResult, regionInfo);
-% for i = 1:size(finalRegion)
-%     imwrite(finalRegion{i}, ['result/fina_region/' num2str(i) '.png'])
-% end
 
 %% hausdorff驗證
 %hausdorff_test(modifyregion, finalRegion,img_num,'sparse') ;

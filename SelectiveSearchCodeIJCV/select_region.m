@@ -5,7 +5,7 @@ tic;
 %% 黑白反轉 ; 二值化
 img = 255-img;
 img = imresize(img,[125 177]);
-img = im2bw(img,0.1);
+img = imbinarize(img,0.1);
 
 %imshow(img);
 
